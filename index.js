@@ -6,6 +6,6 @@ http.createServer(function(req,res){
 	res.end(result)
   
 
-}).listen(8080,function(){
+}).listen(process.env.PORT,function(){
   console.log('Listening on 8080');
 });
